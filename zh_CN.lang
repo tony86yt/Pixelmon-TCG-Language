@@ -41,9 +41,9 @@ achievement.binderFullSecretRare=神一般的卡牌收藏家
 achievement.binderFullSecretRare.desc=用超稀有的卡牌填满一个卡牌捆绑器
 
 achievement.obtainDeck=卡牌平台生成器
-achievement.obtainDeck.desc=Acquire an empty deck slot
-achievement.finishDeck=TCG Battle Ready
-achievement.finishDeck.desc=Name and finish a deck
+achievement.obtainDeck.desc=获取一个平台空槽
+achievement.finishDeck=卡牌对战准备
+achievement.finishDeck.desc=命名和完成一个平台
 
 achievement.trade1=TCG Card Swapper
 achievement.trade1.desc=Perform 1 card trade
