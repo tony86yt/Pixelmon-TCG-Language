@@ -1,0 +1,568 @@
+gui.guiPack.title=您开了一个卡包！
+
+itemGroup.tabTCG1=精灵宝可梦卡牌
+
+item.itemCard.name=宝可梦卡牌
+item.itemShard.name=山铜碎片
+item.itemPack.name=补充包
+item.itemBinder.name=卡牌捆绑器
+item.itemCoinset.name=集币
+item.itemCardback.name=卡背
+item.itemDeck.name=平台座
+item.itemBoard.name=游戏板
+item.itemSoundmod.name=音效MOD
+
+item.cardPrinter.name=卡牌打印机
+item.battleController.name=精灵宝可梦卡牌对战盒4000
+item.rulebook.name=卡牌规则书
+item.battleRule.name=卡牌对战规则
+
+battleRule.instruction=右键一个对战对战盒来更改此盒子的对战规则
+battleRule.setRule=设定一个对战盒的规则
+battleRule.deckSize=平台大小
+battleRule.prizeCount=奖项次数
+battleRule.setStartingCommands=当对战开始时设定的指令
+battleRule.setEndingCommands=当对战结束时设定的指令
+battleRule.emptyCommands=无指令设定
+
+achievement.openPack=打开卡牌包
+achievement.openPack.desc=打开您的第一个卡牌补充包
+achievement.binderGet=初学的卡牌收藏家
+achievement.binderGet.desc=获得一个卡牌捆绑器
+achievement.binderQuarter=新手卡牌收藏家
+achievement.binderQuarter.desc=填满一个卡牌捆绑器的四分之一
+achievement.binderHalf=业余卡牌收藏家
+achievement.binderHalf.desc=填满一个卡牌捆绑器的一半
+achievement.binderFull=专业卡牌收藏家
+achievement.binderFull.desc=填满一个卡牌捆绑器
+achievement.binderFullRare=痴迷的卡牌收藏家
+achievement.binderFullRare.desc=用稀有的或更高等的卡牌填满一个卡牌捆绑器
+achievement.binderFullSecretRare=神一般的卡牌收藏家
+achievement.binderFullSecretRare.desc=用超稀有的卡牌填满一个卡牌捆绑器
+
+achievement.obtainDeck=卡牌平台生成器
+achievement.obtainDeck.desc=Acquire an empty deck slot
+achievement.finishDeck=TCG Battle Ready
+achievement.finishDeck.desc=Name and finish a deck
+
+achievement.trade1=TCG Card Swapper
+achievement.trade1.desc=Perform 1 card trade
+achievement.trade5=TCG Card Trader
+achievement.trade5.desc=Perform 5 card trades
+achievement.trade20=TCG Card Dealer
+achievement.trade20.desc=Perform 20 card trades
+achievement.trade50=TCG Card Broker
+achievement.trade50.desc=Perform 50 card trades
+achievement.trade250=TCG Card Kingpin
+achievement.trade250.desc=Perform 250 card trades
+
+achievement.obtainCardBack=TCG Artist
+achievement.obtainCardBack.desc=Acquire a custom card back
+achievement.obtainCoinset=TCG Treasurer
+achievement.obtainCoinset.desc=Acquire a custom coinset
+achievement.obtainBoard=TCG Worldflipper
+achievement.obtainBoard.desc=Acquire a custom board
+achievement.obtainRulebook=TCG Rulemaster
+achievement.obtainRulebook.desc=Acquire a custom rulebook
+
+achievement.obtainCommon=Obtain TCG Common
+achievement.obtainCommon.desc=Acquire a common card
+achievement.obtainUncommon=Obtain TCG Uncommon
+achievement.obtainUncommon.desc=Acquire an uncommon card
+achievement.obtainRare=Obtain TCG Rare
+achievement.obtainRare.desc=Acquire a rare card
+achievement.obtainSuperRare=Obtain TCG Super Rare
+achievement.obtainSuperRare.desc=Acquire a super rare card
+achievement.obtainUltraRare=Obtain TCG Ultra Rare
+achievement.obtainUltraRare.desc=Acquire an ultra rare card
+achievement.obtainSecretRare=Obtain TCG Secret Rare
+achievement.obtainSecretRare.desc=Acquire a secret rare card
+
+achievement.obtainSeal=Orichalcos Unbound
+achievement.obtainSeal.desc=Acquire a 'Seal of Orichalcos' card
+achievement.obtainShard=Orichalcos Bound
+achievement.obtainShard.desc=Acquire a 'Shard of Orichalcum' item
+achievement.useShard=Seal Shatter
+achievement.useShard.desc=Break an active 'Seal of Orichalcos' with a 'Shard of Orichalcum'
+
+item.card.blank.grass.common.name=Blank Grass Card (common)
+item.card.blank.grass.uncommon.name=Blank Grass Card (uncommon)
+item.card.blank.grass.rare.name=Blank Grass Card (rare)
+item.card.blank.grass.holoRare.name=Blank Grass Card (holo rare)
+item.card.blank.grass.ultraRare.name=Blank Grass Card (ultra rare)
+item.card.blank.grass.secretRare.name=Blank Grass Card (secret rare)
+item.card.blank.fire.common.name=Blank Fire Card (common)
+item.card.blank.fire.uncommon.name=Blank Fire Card (uncommon)
+item.card.blank.fire.rare.name=Blank Fire Card (rare)
+item.card.blank.fire.holoRare.name=Blank Fire Card (holo rare)
+item.card.blank.fire.ultraRare.name=Blank Fire Card (ultra rare)
+item.card.blank.fire.secretRare.name=Blank Fire Card (secret rare)
+item.card.blank.water.common.name=Blank Water Card (common)
+item.card.blank.water.uncommon.name=Blank Water Card (uncommon)
+item.card.blank.water.rare.name=Blank Water Card (rare)
+item.card.blank.water.holoRare.name=Blank Water Card (holo rare)
+item.card.blank.water.ultraRare.name=Blank Water Card (ultra rare)
+item.card.blank.water.secretRare.name=Blank Water Card (secret rare)
+item.card.blank.lightning.common.name=Blank Lightning Card (common)
+item.card.blank.lightning.uncommon.name=Blank Lightning Card (uncommon)
+item.card.blank.lightning.rare.name=Blank Lightning Card (rare)
+item.card.blank.lightning.holoRare.name=Blank Lightning Card (holo rare)
+item.card.blank.lightning.ultraRare.name=Blank Lightning Card (ultra rare)
+item.card.blank.lightning.secretRare.name=Blank Lightning Card (secret rare)
+item.card.blank.fighting.common.name=Blank Fighting Card (common)
+item.card.blank.fighting.uncommon.name=Blank Fighting Card (uncommon)
+item.card.blank.fighting.rare.name=Blank Fighting Card (rare)
+item.card.blank.fighting.holoRare.name=Blank Fighting Card (holo rare)
+item.card.blank.fighting.ultraRare.name=Blank Fighting Card (ultra rare)
+item.card.blank.fighting.secretRare.name=Blank Fighting Card (secret rare)
+item.card.blank.psychic.common.name=Blank Psychic Card (common)
+item.card.blank.psychic.uncommon.name=Blank Psychic Card (uncommon)
+item.card.blank.psychic.rare.name=Blank Psychic Card (rare)
+item.card.blank.psychic.holoRare.name=Blank Psychic Card (holo rare)
+item.card.blank.psychic.ultraRare.name=Blank Psychic Card (ultra rare)
+item.card.blank.psychic.secretRare.name=Blank Psychic Card (secret rare)
+item.card.blank.colorless.common.name=Blank Colorless Card (common)
+item.card.blank.colorless.uncommon.name=Blank Colorless Card (uncommon)
+item.card.blank.colorless.rare.name=Blank Colorless Card (rare)
+item.card.blank.colorless.holoRare.name=Blank Colorless Card (holo rare)
+item.card.blank.colorless.ultraRare.name=Blank Colorless Card (ultra rare)
+item.card.blank.colorless.secretRare.name=Blank Colorless Card (secret rare)
+item.card.blank.darkness.common.name=Blank Darkness Card (common)
+item.card.blank.darkness.uncommon.name=Blank Darkness Card (uncommon)
+item.card.blank.darkness.rare.name=Blank Darkness Card (rare)
+item.card.blank.darkness.holoRare.name=Blank Darkness Card (holo rare)
+item.card.blank.darkness.ultraRare.name=Blank Darkness Card (ultra rare)
+item.card.blank.darkness.secretRare.name=Blank Darkness Card (secret rare)
+item.card.blank.metal.common.name=Blank Metal Card (common)
+item.card.blank.metal.uncommon.name=Blank Metal Card (uncommon)
+item.card.blank.metal.rare.name=Blank Metal Card (rare)
+item.card.blank.metal.holoRare.name=Blank Metal Card (holo rare)
+item.card.blank.metal.ultraRare.name=Blank Metal Card (ultra rare)
+item.card.blank.metal.secretRare.name=Blank Metal Card (secret rare)
+item.card.blank.dragon.common.name=Blank Dragon Card (common)
+item.card.blank.dragon.uncommon.name=Blank Dragon Card (uncommon)
+item.card.blank.dragon.rare.name=Blank Dragon Card (rare)
+item.card.blank.dragon.holoRare.name=Blank Dragon Card (holo rare)
+item.card.blank.dragon.ultraRare.name=Blank Dragon Card (ultra rare)
+item.card.blank.dragon.secretRare.name=Blank Dragon Card (secret rare)
+item.card.blank.fairy.common.name=Blank Fairy Card (common)
+item.card.blank.fairy.uncommon.name=Blank Fairy Card (uncommon)
+item.card.blank.fairy.rare.name=Blank Fairy Card (rare)
+item.card.blank.fairy.holoRare.name=Blank Fairy Card (holo rare)
+item.card.blank.fairy.ultraRare.name=Blank Fairy Card (ultra rare)
+item.card.blank.fairy.secretRare.name=Blank Fairy Card (secret rare)
+
+//Base Set
+set.BS.name=Base Set
+set.JG.name=Jungle Set
+
+//Base Set - Attacks
+//Alakazam
+card.BS1.name=Alakazam
+ability.BS1.name=Damage Swap
+ability.BS1.text=During your turn, you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. Disabled by Sleep, Confusion and Paralysis.
+attack.BS1.1.name=Confuse Ray
+attack.BS1.1.text=Flip a coin. If heads, the Defending Pokémon is now Confused.
+//Blastoise
+card.BS2.name=Blastoise
+ability.BS2.name=Rain Dance
+ability.BS2.text=During your turn, you may attach 1 Water Energy to 1 of your Pokemon. Disabled by Sleep, Confusion and Paralysis.
+attack.BS2.1.name=Hydro Pump
+attack.BS2.1.text=Add 10 damage per Water Energy attached to Blastoise that is not used for this attack's Energy cost, up to 20 bonus damage.
+//Chansey
+card.BS3.name=Chansey
+attack.BS3.1.name=Scrunch
+attack.BS3.1.text=Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)
+attack.BS3.2.name=Double Edge
+attack.BS3.2.text=Chansey does 80 damage to itself.
+//Charizard
+card.BS4.name=Charizard
+ability.BS4.name=Energy Burn
+ability.BS4.text=During your turn, you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. Disabled by Sleep, Confusion and Paralysis.
+attack.BS4.1.name=Fire Spin
+attack.BS4.1.text=Discard 2 Fire Energy attached to Charizard.
+//Clefairy
+card.BS5.name=Clefairy
+attack.BS5.1.name=Sing
+attack.BS5.1.text=Flip a coin. If heads, the Defending Pokémon is now Asleep.
+attack.BS5.2.name=Metronome
+attack.BS5.2.text=Choose an attack belonging to the Defending Pokémon, and use it as your own.
+//Gyarados
+card.BS6.name=Gyarados
+attack.BS6.1.name=Dragon Rage
+attack.BS6.2.name=Bubblebeam
+attack.BS6.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Hitmonchan
+card.BS7.name=Hitmonchan
+attack.BS7.1.name=Jab
+attack.BS7.2.name=Special Punch
+//Machamp
+card.BS8.name=Machamp
+ability.BS8.name=Strikes Back
+ability.BS8.text=When Machamp is damaged, deal 10 damage to the attacker. Disabled by Sleep, Confusion and Paralysis.
+attack.BS8.1.name=Seismic Toss
+//Magneton
+card.BS9.name=Magneton
+attack.BS9.1.name=Thunder Wave
+attack.BS9.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.BS9.2.name=Selfdestruct
+attack.BS9.2.text=Deal 20 damage to all Benched Pokémon. Magneton does 80 damage to itself.
+//Mewtwo
+card.BS10.name=Mewtwo
+attack.BS10.1.name=Psychic
+attack.BS10.1.text=Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
+attack.BS10.2.name=Barrier
+attack.BS10.2.text=Discard 1 Psychic Energy attached to Mewtwo. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.
+//Nidoking
+card.BS11.name=Nidoking
+attack.BS11.1.name=Thrash
+attack.BS11.1.text=Flip a coin. If heads, add 10 damage to this attack. If tails, Nidoking does 10 damage to itself.
+attack.BS11.2.name=Toxic
+attack.BS11.2.text=The Defending Pokémon is now Poisoned. The Defending Pokémon now takes 20 Poison damage per turn.
+//Ninetales
+card.BS12.name=Ninetales
+attack.BS12.1.name=Lure
+attack.BS12.1.text=Switch one of your opponent's Benched Pokémon with their Active Pokémon.
+attack.BS12.2.name=Fire Blast
+attack.BS12.2.text=Discard 1 Fire Energy attached to Ninetales.
+//Poliwrath
+card.BS13.name=Poliwrath
+attack.BS13.1.name=Water Gun
+attack.BS13.1.text=Add 10 damage per Water Energy attached to Poliwrath that is not used for this attack's Energy cost, up to 20 bonus damage.
+attack.BS13.2.name=Whirlpool
+attack.BS13.2.text=Discard 1 Energy attached to the Defending Pokémon.
+//Raichu
+card.BS14.name=Raichu
+attack.BS14.1.name=Agility
+attack.BS14.1.text=Flip a coin. If heads, Raichu gains Immunity next turn.
+attack.BS14.2.name=Thunder
+attack.BS14.2.text=Flip  a coin. If tails, Raichu does 30 damage to itself.
+//Venusaur
+card.BS15.name=Venusaur
+ability.BS15.name=Energy Transfer
+ability.BS15.text=During your turn, you may move Grass Energy card between your Pokémons. Disabled by Sleep, Confusion and Paralysis.
+attack.BS15.1.name=Solarbeam
+//Zapdos
+card.BS16.name=Zapdos
+attack.BS16.1.name=Thunder
+attack.BS16.1.text=Flip a coin. If tails, Zapdos does 30 damage to itself.
+attack.BS16.2.name=Thunderbolt
+attack.BS16.2.text=Discard all Energy attached to Zapdos.
+//Beedrill
+card.BS17.name=Beedrill
+attack.BS17.1.name=Twineedle
+attack.BS17.1.text=Flip 2 coins. Multiply the damage of this attack by the number of heads.
+attack.BS17.2.name=Poison Sting
+attack.BS17.2.text=Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+//Dragonair
+card.BS18.name=Dragonair
+attack.BS18.1.name=Slam
+attack.BS18.1.text=Flip 2 coins. Multiply the damage of this attack by the number of heads
+attack.BS18.2.name=Hyper Beam
+attack.BS18.2.text=Discard 1 Energy attached to the Defending Pokémon.
+//Dugtrio
+card.BS19.name=Dugtrio
+attack.BS19.1.name=Slash
+attack.BS19.2.name=Earthquake
+attack.BS19.2.text=Does 10 damage to each of your own Benched Pokémon.
+//Electabuzz
+card.BS20.name=Electabuzz
+attack.BS20.1.name=Thundershock
+attack.BS20.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.BS20.2.name=Thunderpunch
+attack.BS20.2.text=Flip a coin. If heads, add 10 damage to this attack. If tails, Electabuzz does 10 damage to itself.
+//Electrode
+card.BS21.name=Electrode
+ability.BS21.name=Buzzap
+ability.BS21.text=During your turn, you may knock out Electrode, and attach it to one of your other Pokémon. Electrode now counts as 2 Energy of a type of your choosing. Disabled by Sleep, Confusion and Paralysis.
+attack.BS21.1.name=Electric Shock
+attack.BS21.1.text=Flip a coin. If tails, Electrode does 10 damage to itself.
+//Pidgeotto
+card.BS22.name=Pidgeotto
+attack.BS22.1.name=Whirlwind
+attack.BS22.1.text=Your opponent switches one of their Benched Pokémon with their Active Pokémon.
+attack.BS22.2.name=Mirror Move
+attack.BS22.2.text=If Pidgeotto was attacked last turn, copy the end result of that attack to the Defending Pokémon.
+//Arcanine
+card.BS23.name=Arcanine
+attack.BS23.1.name=Flamethrower
+attack.BS23.1.text=Discard 1 Fire Energy attached to Arcanine.
+attack.BS23.2.name=Take Down
+attack.BS23.2.text=Arcanine does 30 damage to itself.
+//Charmeleon
+card.BS24.name=Charmeleon
+attack.BS24.1.name=Slash
+attack.BS24.2.name=Flamethrower
+attack.BS24.2.text=Discard 1 Fire Energy attached to Charmeleon.
+//Dewgong
+card.BS25.name=Dewgong
+attack.BS25.1.name=Aurora Beam
+attack.BS25.2.name=Ice Beam
+attack.BS25.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Dratini
+card.BS26.name=Dratini
+attack.BS26.1.name=Pound
+//Farfetch'd
+card.BS27.name=Farfetch'd
+attack.BS27.1.name=Leek Slap
+attack.BS27.1.text=Flip a coin. If tails, this attack misses. Either way, disable this attack.
+attack.BS27.2.name=Pot Smash
+//Growlithe
+card.BS28.name=Growlithe
+attack.BS28.1.name=Flare
+//Haunter
+card.BS29.name=Haunter
+attack.BS29.1.name=Hypnosis
+attack.BS29.1.text=The Defending Pokémon is now Asleep.
+attack.BS29.2.name=Dream Eater
+attack.BS29.2.text=Only damages Pokémon who are Asleep.
+//Ivysaur
+card.BS30.name=Ivysaur
+attack.BS30.1.name=Vine Whip
+attack.BS30.2.name=Poisonpowder
+attack.BS30.2.text=The Defending Pokémon is now Poisoned.
+//Jynx
+card.BS31.name=Jynx
+attack.BS31.1.name=Doubleslap
+attack.BS31.1.text=Flip 2 coins. Multiply the damage of this attack by the number of heads.
+attack.BS31.2.name=Meditate
+attack.BS31.2.text=Add 10 damage to this attack per 10 damage on the Defending Pokémon.
+//Kadabra
+card.BS32.name=Kadabra
+attack.BS32.1.name=Recover
+attack.BS32.1.text=Discard 1 Psychic Energy attached to Kadabra. Remove all damage counters from Kadabra.
+attack.BS32.2.name=Super Psy
+//Kakuna
+card.BS33.name=Kakuna
+attack.BS33.1.name=Stiffen
+attack.BS33.1.text=Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)
+attack.BS33.2.name=Poisonpowder
+attack.BS33.2.text=Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+//Machoke
+card.BS34.name=Machoke
+attack.BS34.1.name=Karate Chop
+attack.BS34.1.text=Minus 10 damage from this attack per 10 damage on Machoke.
+attack.BS34.2.name=Submission
+attack.BS34.2.text=Machoke does 20 damage to itself.
+//Magikarp
+card.BS35.name=Magikarp
+attack.BS35.1.name=Tackle
+attack.BS35.2.name=Flail
+attack.BS35.2.text=Multiply the damage of this attack by the number of damage counters on Magikarp.
+//Magmar
+card.BS36.name=Magmar
+attack.BS36.1.name=Fire Punch
+attack.BS36.2.name=Flamethrower
+attack.BS36.2.text=Discard 1 Fire Energy attached to Magmar.
+//Nidorino
+card.BS37.name=Nidorino
+attack.BS37.1.name=Double Kick
+attack.BS37.1.text=Flip 2 coins. Multiply the damage of this attack by the number of heads.
+attack.BS37.2.name=Horn Drill
+//Poliwhirl
+card.BS38.name=Poliwhirl
+attack.BS38.1.name=Amnesia
+attack.BS38.1.text=Choose an attack of the Defending Pokémon. That attack is disabled next turn.
+attack.BS38.2.name=Doubleslap
+attack.BS38.2.text=Flip 2 coins. Multiply the damage of this attack by the number of heads.
+//Porygon
+card.BS39.name=Porygon
+attack.BS39.1.name=Conversion 1
+attack.BS39.1.text=If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.
+attack.BS39.2.name=Conversion 2
+attack.BS39.2.text=Change Porygon's Resistance to a type of your choice other than Colorless.
+//Raticate
+card.BS40.name=Raticate
+attack.BS40.1.name=Bite
+attack.BS40.2.name=Super Fang
+attack.BS40.2.text=Deals half of the Defending Pokémon's remaining HP as damage, rounded up to the nearest 10.
+//Seel
+card.BS41.name=Seel
+attack.BS41.1.name=Headbutt
+//Wartortle
+card.BS42.name=Wartortle
+attack.BS42.1.name=Withdraw
+attack.BS42.1.text=Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)
+attack.BS42.2.name=Bite
+//Abra
+card.BS43.name=Abra
+attack.BS43.1.name=Psyshock
+attack.BS43.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Bulbasaur
+card.BS44.name=Bulbasaur
+attack.BS44.1.name=Leech Seed
+attack.BS44.1.text=If this attack deals damage, heal Bulbasaur for 10.
+//Caterpie
+card.BS45.name=Caterpie
+attack.BS45.1.name=String Shot
+attack.BS45.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Charmander
+card.BS46.name=Charmander
+attack.BS46.1.name=Scratch
+attack.BS46.2.name=Ember
+attack.BS46.2.text=Discard 1 Fire Energy attached to Charmander.
+//Diglett
+card.BS47.name=Diglett
+attack.BS47.1.name=Dig
+attack.BS47.2.name=Mud Slap
+//Doduo
+card.BS48.name=Doduo
+attack.BS48.1.name=Fury Attack
+attack.BS48.1.text=Flip 2 coins. Multiply the damage of this attack by the number of heads.
+//Drowzee
+card.BS49.name=Drowzee
+attack.BS49.1.name=Pound
+attack.BS49.2.name=Confuse Ray
+attack.BS49.2.text=Flip a coin. If heads, the Defending Pokémon is now Confused.
+//Gastly
+card.BS50.name=Gastly
+attack.BS50.1.name=Sleeping Gas
+attack.BS50.1.text=Flip a coin. If heads, the Defending Pokémon is now Asleep.
+attack.BS50.2.name=Destiny Bond
+attack.BS50.2.text=Discard 1 Psychic Energy attached to Gastly. If Gastly is Knocked Out next turn, Knock Out the attacker.
+//Koffing
+card.BS51.name=Koffing
+attack.BS51.1.name=Foul Gas
+attack.BS51.1.text=Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.
+//Machop
+card.BS52.name=Machop
+attack.BS52.1.name=Low Kick
+//Magnemite
+card.BS53.name=Magnemite
+attack.BS53.1.name=Thunder Wave
+attack.BS53.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.BS53.2.name=Selfdestruct
+attack.BS53.2.text=Deal 10 damage to all Benched Pokémon. Magnemite does 40 damage to itself.
+//Metapod
+card.BS54.name=Metapod
+attack.BS54.1.name=Stiffen
+attack.BS54.1.text=Flip a coin. If heads, Metapod gains Damage Immunity next turn.
+attack.BS54.2.name=Stun Spore
+attack.BS54.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Nidoran Male
+card.BS55.name=Nidoran♂
+attack.BS55.1.name=Horn Hazard
+attack.BS55.1.text=Flip a coin. If tails, this attack misses.
+//Onix
+card.BS56.name=Onix
+attack.BS56.1.name=Rock Throw
+attack.BS56.2.name=Harden
+attack.BS56.2.text=Onix ignores attacks which deal 30 or less damage next turn.
+//Pidgey
+card.BS57.name=Pidgey
+attack.BS57.1.name=Whirlwind
+attack.BS57.1.text=Your opponent switches one of their Benched Pokémon with their Active Pokémon.
+//Pikachu
+card.BS58.name=Pikachu
+attack.BS58.1.name=Gnaw
+attack.BS58.2.name=Thunder Jolt
+attack.BS58.2.text=Flip a coin. If tails, Pikachu does 10 damage to itself.
+//Poliwag
+card.BS59.name=Poliwag
+attack.BS59.1.name=Watergun
+attack.BS59.1.text=Add 10 damage per Water Energy attached to Poliwag that is not used for this attack's Energy cost, up to 20 bonus damage.
+//Ponyta
+card.BS60.name=Ponyta
+attack.BS60.1.name=Smash Kick
+attack.BS60.2.name=Flame Tail
+//Rattata
+card.BS61.name=Rattata
+attack.BS61.1.name=Bite
+//Sandshrew
+card.BS62.name=Sandshrew
+attack.BS62.1.name=Sand-Attack
+attack.BS62.1.text=Next turn, your opponents' attacks gain the following text: Flip a coin. If tails, this attack misses.
+//Squirtle
+card.BS63.name=Squirtle
+attack.BS63.1.name=Bubble
+attack.BS63.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.BS63.2.name=Withdraw
+attack.BS63.2.text=Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)
+//Starmie
+card.BS64.name=Starmie
+attack.BS64.1.name=Recover
+attack.BS64.1.text=Discard 1 Water Energy attached to Starmie. Remove all damage counters from Starmie.
+attack.BS64.2.name=Star Freeze
+attack.BS64.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Staryu
+card.BS65.name=Staryu
+attack.BS65.1.name=Slap
+//Tangela
+card.BS66.name=Tangela
+attack.BS66.1.name=Bind
+attack.BS66.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.BS66.2.name=Poisonpowder
+attack.BS66.2.text=The Defending Pokémon is now Poisoned.
+//Voltorb
+card.BS67.name=Voltorb
+attack.BS67.1.name=Tackle
+//Vulpix
+card.BS68.name=Vulpix
+attack.BS68.1.name=Confuse Ray
+attack.BS68.1.text=Flip a coin. If heads, the Defending Pokémon is now Confused.
+//Weedle
+card.BS69.name=Weedle
+attack.BS69.1.name=Poison Sting
+attack.BS69.1.text=Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+
+//Base Set - Trainer Cards
+card.BS70.name=Clefairy Doll
+card.BS70.text=Play as if it were a Basic Pokémon. Doesn't count as a Knocked Out Pokémon. You may discard anytime during your turn before attacking.
+card.BS71.name=Computer Search
+card.BS71.text=Discard 2 other cards from your hand in order to search your deck for any card and put into your hand. Shuffle your deck afterward.
+card.BS72.name=Devolution Spray
+card.BS72.text=Chose 1 of your own Pokémon and a Stage of Evolution. Discard all Evolution cards of that Stage or higher and all current condition.
+card.BS73.name=Imposter Prof. Oak
+card.BS73.text=Your opponent shuffles their hand into their deck, then draws 7 cards.
+card.BS74.name=Item Finder
+card.BS74.text=Discard 2 other cards from your hand in order to put a Trainer card from your discard pile into your hand.
+card.BS75.name=Lass
+card.BS75.text=Both players reveal their hands, and then shuffle all Trainers in their hands back into their decks.
+card.BS76.name=Pokémon Breeder
+card.BS76.text=Put a Stage 2 Pokémon in your hand onto a matching Basic Pokémon. Follows evolution rules.
+card.BS77.name=Pokémon Trader
+card.BS77.text=Trade a Pokémon from your hand for any Pokémon from your deck. Reveal both cards.
+card.BS78.name=Scoop Up
+card.BS78.text=Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)
+card.BS79.name=Super Energy Removal
+card.BS79.text=Discard 1 Energy attached to your Pokémon in order to discard up to 2 Energy cards on 1 of your opponent's Pokémon.
+card.BS80.name=Defender
+card.BS80.text=Attach to 1 of your Pokémon. Next turn, reduce damage done to this Pokémon by 20 (after applying Weakness and Resistance) and discard the Defender.
+card.BS81.name=Energy Retrieval
+card.BS81.text=Trade 1 other card in your hand for up to 2 basic Energy cards from your discard pile.
+card.BS82.name=Full Heal
+card.BS82.text=Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.
+card.BS83.name=Maintenance
+card.BS83.text=Shuffle 2 other cards from your hand into your deck in order to draw a card.
+card.BS84.name=PlusPower
+card.BS84.text=Attach to your Active Pokémon for this turn. If this Pokémon's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), the attack does 10 more damage.
+card.BS85.name=Pokémon Center
+card.BS85.text=Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.
+card.BS86.name=Pokémon Flute
+card.BS86.text=Choose 1 Basic Pokémon in your opponent's discard pile and add it to their bench.
+card.BS87.name=Pokédex
+card.BS87.text=Look at up to 5 cards from the top of your deck and rearrange them as you like.
+card.BS88.name=Prof. Oak
+card.BS88.text=Discard your hand, then draw 7 cards.
+card.BS89.name=Revive
+card.BS89.text=Put 1 Basic Pokémon card from your discard pile onto your Bench. Put damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10).
+card.BS90.name=Super Potion
+card.BS90.text=Discard 1 Energy card attached to 1 of your own Pokémon in order to remove up to 4 damage counters from that Pokémon.
+card.BS91.name=Bill
+card.BS91.text=Draw 2 cards.
+card.BS92.name=Energy Removal
+card.BS92.text=Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.
+card.BS93.name=Gust of Wind
+card.BS93.text=Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.
+card.BS94.name=Potion
+card.BS94.text=Remove up to 2 damage counters from 1 of your Pokémon.
+card.BS95.name=Switch
+card.BS95.text=Switch 1 of your Benched Pokémon with your Active Pokémon.
+
+//Base Set - Energy
+card.BS96.name=Double Colorless Energy
+card.BS96.text=Not a Basic Energy. Provides 2 Colorless Energy.
+card.BS97.name=Fighting Energy
+card.BS98.name=Fire Energy
+card.BS99.name=Grass Energy
+card.BS100.name=Lightning Energy
