@@ -174,21 +174,21 @@ attack.BS3.1.name=蜷缩
 attack.BS3.1.text=投掷1次硬币，如果出现正面，在对手接下来的回合，自身不受任何招式造成的伤害。(任何其他的攻击效果仍触发。)
 attack.BS3.2.name=舍身攻击
 attack.BS3.2.text=对自身造成80点伤害。
-//Charizard
-card.BS4.name=Charizard
-ability.BS4.name=Energy Burn
-ability.BS4.text=During your turn, you may turn all Energy attached to Charizard into Fire Energy for the rest of the turn. Disabled by Sleep, Confusion and Paralysis.
-attack.BS4.1.name=Fire Spin
-attack.BS4.1.text=Discard 2 Fire Energy attached to Charizard.
-//Clefairy
-card.BS5.name=Clefairy
-attack.BS5.1.name=Sing
-attack.BS5.1.text=Flip a coin. If heads, the Defending Pokémon is now Asleep.
-attack.BS5.2.name=Metronome
-attack.BS5.2.text=Choose an attack belonging to the Defending Pokémon, and use it as your own.
-//Gyarados
-card.BS6.name=Gyarados
-attack.BS6.1.name=Dragon Rage
+//喷火龙
+card.BS4.name=喷火龙
+ability.BS4.name=能量燃烧
+ability.BS4.text=在己方回合内，把自身携带的所有能量变成火系能量。在睡眠，混乱和麻痹状态下禁用。
+attack.BS4.1.name=火焰漩涡
+attack.BS4.1.text=选择自身携带的2个火系能量并丢弃。
+//皮皮
+card.BS5.name=皮皮
+attack.BS5.1.name=唱歌
+attack.BS5.1.text=投掷1次硬币，如果出现正面，则防守方宝可梦陷入睡眠状态。
+attack.BS5.2.name=挥指功
+attack.BS5.2.text=选择防守方宝可梦的一个技能来攻击，并把它作为自己的技能。
+//暴鲤龙
+card.BS6.name=暴鲤龙
+attack.BS6.1.name=龙之怒
 attack.BS6.2.name=Bubblebeam
 attack.BS6.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
 //Hitmonchan
