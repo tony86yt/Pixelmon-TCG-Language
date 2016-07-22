@@ -189,26 +189,26 @@ attack.BS5.2.text=选择防守方宝可梦的一个技能来攻击，并把它�
 //暴鲤龙
 card.BS6.name=暴鲤龙
 attack.BS6.1.name=龙之怒
-attack.BS6.2.name=Bubblebeam
-attack.BS6.2.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-//Hitmonchan
-card.BS7.name=Hitmonchan
-attack.BS7.1.name=Jab
-attack.BS7.2.name=Special Punch
-//Machamp
-card.BS8.name=Machamp
-ability.BS8.name=Strikes Back
-ability.BS8.text=When Machamp is damaged, deal 10 damage to the attacker. Disabled by Sleep, Confusion and Paralysis.
-attack.BS8.1.name=Seismic Toss
-//Magneton
-card.BS9.name=Magneton
-attack.BS9.1.name=Thunder Wave
-attack.BS9.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
-attack.BS9.2.name=Selfdestruct
-attack.BS9.2.text=Deal 20 damage to all Benched Pokémon. Magneton does 80 damage to itself.
-//Mewtwo
-card.BS10.name=Mewtwo
-attack.BS10.1.name=Psychic
+attack.BS6.2.name=泡沫光线
+attack.BS6.2.text=投掷1次硬币。如果出现正面，则防守方宝可梦即刻陷入麻痹状态。
+//快拳郎
+card.BS7.name=快拳郎
+attack.BS7.1.name=拳击
+attack.BS7.2.name=特殊拳
+//怪力
+card.BS8.name=怪力
+ability.BS8.name=返拳
+ability.BS8.text=当自身受到伤害时，对攻击方造成10点伤害。在睡眠，混乱和麻痹状态下禁用。
+attack.BS8.1.name=地球上投
+//三合一磁怪
+card.BS9.name=三合一磁怪
+attack.BS9.1.name=电磁波
+attack.BS9.1.text=投掷1次硬币。如果出现正面，则防守方宝可梦即刻陷入麻痹状态。
+attack.BS9.2.name=自爆
+attack.BS9.2.text=对下场所有宝可梦造成20点伤害。对自身造成80点伤害。
+//超梦
+card.BS10.name=超梦
+attack.BS10.1.name=幻象术
 attack.BS10.1.text=Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.
 attack.BS10.2.name=Barrier
 attack.BS10.2.text=Discard 1 Psychic Energy attached to Mewtwo. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.
