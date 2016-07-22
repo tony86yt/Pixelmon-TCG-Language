@@ -154,13 +154,13 @@ item.card.blank.fairy.secretRare.name=空白妖精系卡(珍贵)
 
 //基础设定
 set.BS.name=基础设定
-set.JG.name=复杂设定
 
-//基础设定- 攻击
+//基础设定- 宝可梦和攻击
 //胡地
 card.BS1.name=胡地
 ability.BS1.name=伤害交换
 ability.BS1.text=在己方回合内，从己方一只宝可梦身上移动1个伤害指示物到己方另一只未被击倒的宝可梦身上。在睡眠，混乱和麻痹状态下禁用。
+attack.BS1.1.name=奇异光线
 attack.BS1.1.text=投掷1次硬币，如果出现正面，则防守的精灵混乱。
 //水箭龟
 card.BS2.name=水箭龟
@@ -565,3 +565,399 @@ card.BS97.name=Fighting Energy
 card.BS98.name=Fire Energy
 card.BS99.name=Grass Energy
 card.BS100.name=Lightning Energy
+card.BS101.name=Psychic Energy
+card.BS102.name=Water Energy
+
+//Base Set - Decks
+deck.trainerDeckA.name=Trainer Deck A
+deck.trainerDeckB.name=Trainer Deck B
+deck.2playerStarter.name=2-Player Starter Set
+deck.overgrowth.name=Overgrowth
+deck.zap.name=Zap!
+deck.brushfire.name=Brushfire
+deck.blackout.name=Blackout
+
+//Jungle Set
+set.JG.name=Jungle Set
+
+//Jungle Set - Pokemon and Attacks
+//Clefable
+card.JG1.name=Clefable
+attack.JG1.1.name=Metronome
+attack.JG1.1.text=Choose an attack belonging to the Defending Pokémon, and use it as your own.
+attack.JG1.2.name=Minimize
+attack.JG1.2.text=All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+//Electrode
+card.JG2.name=Electrode
+attack.JG2.1.name=Tackle
+attack.JG2.1.text=
+attack.JG2.2.name=Chain Lightning
+attack.JG2.2.text=If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type (including your own).
+//Flareon
+card.JG3.name=Flareon
+attack.JG3.1.name=Quick Attack
+attack.JG3.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG3.2.name=Flamethrower
+attack.JG3.2.text=Discard 1 Fire Energy card attached to Flareon in order to use this attack.
+//Jolteon
+card.JG4.name=Jolteon
+attack.JG4.1.name=Quick Attack
+attack.JG4.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG4.2.name=Pin Missile
+attack.JG4.2.text=Flip 4 coins. This attack does 20 damage times the number of heads.
+//Kangaskhan
+card.JG5.name=Kangaskhan
+attack.JG5.1.name=Fetch
+attack.JG5.1.text=Draw a card.
+attack.JG5.2.name=Comet Punch
+attack.JG5.2.text=Flip 4 coins. This attack does 20 damage times the number of heads.
+//Mr. Mime
+card.JG6.name=Mr. Mime
+ability.JG6.1.name=Invisible Wall
+ability.JG6.1.text=Prevent Damage caused by an attack that does 30 or more damage to Mr. Mime, any other effects of attacks still happen. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG6.1.name=Meditate
+attack.JG6.1.text=Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+//Nidoqueen
+card.JG7.name=Nidoqueen
+attack.JG7.1.name=Boyfriends
+attack.JG7.1.text=Does 20 damage plus 20 more damage for each Nidoking you have in play.
+attack.JG7.2.name=Mega Punch
+attack.JG7.2.text=
+//Pidgeot
+card.JG8.name=Pidgeot
+attack.JG8.1.name=Wing Attack 
+attack.JG8.1.text=
+attack.JG8.2.name=Hurricane
+attack.JG8.2.text=Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.
+//Pinsir
+card.JG9.name=Pinsir
+attack.JG9.1.name=Irongrip 
+attack.JG9.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.JG9.2.name=Guillotine
+attack.JG9.2.text=
+//Scyther
+card.JG10.name=Scyther
+attack.JG10.1.name=Swords Dance
+attack.JG10.1.text=During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.
+attack.JG10.2.name=Slash
+attack.JG10.2.text=
+//Snorlax
+card.JG11.name=Snorlax
+ability.JG11.1.name=Thick Skinned
+ability.JG11.1.text=Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.
+attack.JG11.1.name=Body Slam
+attack.JG11.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Vaporeon
+card.JG12.name=Vaporeon
+attack.JG12.1.name=Quick Attack 
+attack.JG12.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG12.2.name=Water Gun
+attack.JG12.2.text=Does 30 damage plus 10 more damage for each Water Energy attached which is not used to pay for this attack. Limited to 2 extra Water Energy.
+//Venomoth
+card.JG13.name=Venomoth
+ability.JG13.1.name=Shift
+ability.JG13.1.text=Before your attack you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG13.1.name=Venom Powder
+attack.JG13.1.text=Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+//Victreebel
+card.JG14.name=Victreebel
+attack.JG14.1.name=Lure
+attack.JG14.1.text=If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.
+attack.JG14.2.name=Acid
+attack.JG14.2.text=Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.
+//Vileplume
+card.JG15.name=Vileplume
+ability.JG15.1.name=Heal
+ability.JG15.1.text=Before your attack you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG15.1.name=Petal Dance
+attack.JG15.1.text=Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage).
+//Wigglytuff
+card.JG16.name=Wigglytuff
+attack.JG16.1.name=Lullaby
+attack.JG16.1.text=The Defending Pokémon is now Asleep.
+attack.JG16.2.name=Do the Wave
+attack.JG16.2.text=Does 10 damage plus 10 more damage for each of your Benched Pokémon.
+//Clefable
+card.JG17.name=Clefable
+attack.JG17.1.name=Metronome
+attack.JG17.1.text=Choose an attack belonging to the Defending Pokémon, and use it as your own.
+attack.JG17.2.name=Minimize
+attack.JG17.2.text=All damage done by attacks to Clefable during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).
+//Electrode
+card.JG18.name=Electrode
+attack.JG18.1.name=Tackle
+attack.JG18.1.text=
+attack.JG18.2.name=Chain Lightning
+attack.JG18.2.text=If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type (including your own).
+//Flareon
+card.JG19.name=Flareon
+attack.JG19.1.name=Quick Attack
+attack.JG19.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG19.2.name=Flamethrower
+attack.JG19.2.text=Discard 1 Fire Energy card attached to Flareon in order to use this attack.
+//Jolteon
+card.JG20.name=Jolteon
+attack.JG20.1.name=Quick Attack
+attack.JG20.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG20.2.name=Pin Missile
+attack.JG20.2.text=Flip 4 coins. This attack does 20 damage times the number of heads.
+//Kangaskhan
+card.JG21.name=Kangaskhan
+attack.JG21.1.name=Fetch
+attack.JG21.1.text=Draw a card.
+attack.JG21.2.name=Comet Punch
+attack.JG21.2.text=Flip 4 coins. This attack does 20 damage times the number of heads.
+//Mr. Mime
+card.JG22.name=Mr. Mime
+ability.JG22.1.name=Invisible Wall
+ability.JG22.1.text=Prevent Damage caused by an attack that does 30 or more damage to Mr. Mime, any other effects of attacks still happen. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG22.1.name=Meditate
+attack.JG22.1.text=Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.
+//Nidoqueen
+card.JG23.name=Nidoqueen
+attack.JG23.1.name=Boyfriends
+attack.JG23.1.text=Does 20 damage plus 20 more damage for each Nidoking you have in play.
+attack.JG23.2.name=Mega Punch
+attack.JG23.2.text=
+//Pidgeot
+card.JG24.name=Pidgeot
+attack.JG24.1.name=Wing Attack 
+attack.JG24.1.text=
+attack.JG24.2.name=Hurricane
+attack.JG24.2.text=Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.
+//Pinsir
+card.JG25.name=Pinsir
+attack.JG25.1.name=Irongrip 
+attack.JG25.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.JG25.2.name=Guillotine
+attack.JG25.2.text=
+//Scyther
+card.JG26.name=Scyther
+attack.JG26.1.name=Swords Dance
+attack.JG26.1.text=During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.
+attack.JG26.2.name=Slash
+attack.JG26.2.text=
+//Snorlax
+card.JG27.name=Snorlax
+ability.JG27.1.name=Thick Skinned
+ability.JG27.1.text=Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.
+attack.JG27.1.name=Body Slam
+attack.JG27.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+//Vaporeon
+card.JG28.name=Vaporeon
+attack.JG28.1.name=Quick Attack 
+attack.JG28.1.text=Flip a coin. If heads, this attack 20 more damage
+attack.JG28.2.name=Water Gun
+attack.JG28.2.text=Does 30 damage plus 10 more damage for each Water Energy attached which is not used to pay for this attack. Limited to 2 extra Water Energy.
+//Venomoth
+card.JG29.name=Venomoth
+ability.JG29.1.name=Shift
+ability.JG29.1.text=Before your attack you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG29.1.name=Venom Powder
+attack.JG29.1.text=Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.
+//Victreebel
+card.JG30.name=Victreebel
+attack.JG30.1.name=Lure
+attack.JG30.1.text=If your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.
+attack.JG30.2.name=Acid
+attack.JG30.2.text=Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.
+//Vileplume
+card.JG31.name=Vileplume
+ability.JG31.1.name=Heal
+ability.JG31.1.text=Before your attack you may flip a coin. If heads, remove 1 damage counter from 1 of your Pokémon. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG31.1.name=Petal Dance
+attack.JG31.1.text=Flip 3 coins. This attack does 40 damage times the number of heads. Vileplume is now Confused (after doing damage).
+//Wigglytuff
+card.JG32.name=Wigglytuff
+attack.JG32.1.name=Lullaby
+attack.JG32.1.text=The Defending Pokémon is now Asleep.
+attack.JG32.2.name=Do the Wave
+attack.JG32.2.text=Does 10 damage plus 10 more damage for each of your Benched Pokémon.
+//Butterfree
+card.JG33.name=Butterfree
+attack.JG33.1.name=Whirlwind
+attack.JG33.1.text=If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Apply damage before switching.)
+attack.JG33.2.name=Mega Drain
+attack.JG33.2.text=Heal Butterfree equal to half the damage done to the Defending Pokémon.
+//Dodrio
+card.JG34.name=Dodrio
+ability.JG34.1.name=Retreat Aid
+ability.JG34.1.text=As long as Dodrio is Benched, pay one Energy Card less to retreat your Active Pokémon.
+attack.JG34.1.name=Rage
+attack.JG34.1.text=Does 10 damage plus 10 more damage for each damage counter on Dodrio.
+//Exeggutor
+card.JG35.name=Exeggutor
+attack.JG35.1.name=Teleport
+attack.JG35.1.text=Switch Exeggutor with one of your Benched Pokémon.
+attack.JG35.2.name=Big Eggsplosion
+attack.JG35.2.text=Flip a coin equal to the number of Energy Cards attached to Exeggutor. This attack does 20 damage times the number of heads.
+//Fearow
+card.JG36.name=Fearow
+attack.JG36.1.name=Agility
+attack.JG36.1.text=Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.
+attack.JG36.2.name=Drill Peck
+attack.JG36.2.text=
+//Gloom
+card.JG37.name=Gloom
+attack.JG37.1.name=Poisonpowder
+attack.JG37.1.text=The Defending Pokémon is now Poisoned.
+attack.JG37.2.name=Foul Odor
+attack.JG37.2.text=Both the Defending Pokémon and Gloom are now Confused (after doing damage).
+//Lickitung
+card.JG38.name=Lickitung
+attack.JG38.1.name=Tongue Wrap 
+attack.JG38.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.JG38.2.name=Supersonic
+attack.JG38.2.text=Flip a coin. If heads, the Defending Pokémon is now Confused
+//Marowak
+card.JG39.name=Marowak
+attack.JG39.1.name=Bonemerang
+attack.JG39.1.text=Flip 2 coins. This attack does 30 damage times the number of heads.
+attack.JG39.2.name=Call for Friend
+attack.JG39.2.text=Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward.
+//Nidorina
+card.JG40.name=Nidorina
+attack.JG40.1.name=Supersonic
+attack.JG40.1.text=Flip a coin. If heads, the Defending Pokémon is now Confused.
+attack.JG40.2.name=Double Kick
+attack.JG40.2.text=Flip 2 coins. This attack does 30 damage times the number of heads.
+//Parasect
+card.JG41.name=Parasect
+attack.JG41.1.name=Spore
+attack.JG41.1.text=The Defending Pokémon is now Asleep.
+attack.JG41.2.name=Slash
+attack.JG41.2.text=
+//Persian
+card.JG42.name=Persian
+attack.JG42.1.name=Scratch
+attack.JG42.1.text=
+attack.JG42.2.name=Pounce
+attack.JG42.2.text=If the Defending Pokémon attacks Persian during your opponent's next turn, any damage done by the attack is reduced by 10.
+//Primeape
+card.JG43.name=Primeape
+attack.JG43.1.name=Fury Swipes
+attack.JG43.1.text=Flip 3 coins. This attack does 20 damage times the number of heads.
+attack.JG43.2.name=Tantrum
+attack.JG43.2.text=Flip a coin. If tails, Primeape is now Confused (after doing damage).
+//Rapidash
+card.JG44.name=Rapidash
+attack.JG44.1.name=Stomp
+attack.JG44.1.text=Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+attack.JG44.2.name=Agility
+attack.JG44.2.text=Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.
+//Rhydon
+card.JG45.name=Rhydon
+attack.JG45.1.name=Horn Attack
+attack.JG45.1.text=
+attack.JG45.2.name=Ram
+attack.JG45.2.text=Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it.
+//Seaking
+card.JG46.name=Seaking
+attack.JG46.1.name=Horn Attack
+attack.JG46.1.text=
+attack.JG46.2.name=Waterfall
+attack.JG46.2.text=
+//Tauros
+card.JG47.name=Tauros
+attack.JG47.1.name=Stomp
+attack.JG47.1.text=Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.
+attack.JG47.2.name=Rampage
+attack.JG47.2.text=Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).
+//Weepinbell
+card.JG48.name=Weepinbell
+attack.JG48.1.name=Poisonpowder
+attack.JG48.1.text=Flip a coin. If heads, the Defending Pokémon is now Poisoned.
+attack.JG48.2.name=Razor Leaf 
+attack.JG48.2.text=
+//Bellsprout
+card.JG49.name=Bellsprout
+attack.JG49.1.name=Vine Whip
+attack.JG49.1.text=
+attack.JG49.2.name=Call for Family
+attack.JG49.2.text=Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward.
+//Cubone
+card.JG50.name=Cubone
+attack.JG50.1.name=Snivel
+attack.JG50.1.text=If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20.
+attack.JG50.2.name=Rage
+attack.JG50.2.text=Does 10 damage plus 10 more damage for each damage counter on Cubone.
+//Eevee
+card.JG51.name=Eevee
+attack.JG51.1.name=Tail Wag
+attack.JG51.1.text=Flip a coin. If heads, the Defending Pokémon can't attack Eevee during your opponent's next turn.
+attack.JG51.2.name=Quick Attack 
+attack.JG51.2.text=Flip a coin. If heads, this attack 20 more damage
+//Exeggucte
+card.JG52.name=Exeggcute
+attack.JG52.1.name=Hypnosis
+attack.JG52.1.text=The Defending Pokémon is now Asleep.
+attack.JG52.2.name=Leech Seed
+attack.JG52.2.text=Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.
+//Goldeen
+card.JG53.name=Goldeen
+attack.JG53.1.name=Horn Attack
+attack.JG53.1.text=
+//Jigglypuff
+card.JG54.name=Jigglypuff
+attack.JG54.1.name=Lullaby
+attack.JG54.1.text=The Defending Pokémon is now Asleep.
+attack.JG54.2.name=Pound
+attack.JG54.2.text=
+//Mankey
+card.JG55.name=Mankey
+ability.JG55.1.name=Peek
+ability.JG55.1.text=Before your attack you may look at one of the following: the top card of either player's deck, a random card from your opponent's hand, or one of either player's Prizes. Disabled by Sleep, Confused, or Paralyzed.
+attack.JG55.1.name=Scratch
+attack.JG55.1.text=
+//Meowth
+card.JG56.name=Meowth
+attack.JG56.1.name=Pay Day
+attack.JG56.1.text=Flip a coin. If heads, draw a card.
+//Nidoran♀
+card.JG57.name=Nidoran♀
+attack.JG57.1.name=Fury Swipes 
+attack.JG57.1.text=Flip 3 coins. This attack does 10 damage times the number of heads.
+attack.JG57.2.name=Call for Family
+attack.JG57.2.text=Search your deck for a Basic Pokémon named Nidoran♂ or Nidoran♀ and put it onto your Bench. Shuffle your deck afterward.
+//Oddish
+card.JG58.name=Oddish
+attack.JG58.1.name=Stun Spore
+attack.JG58.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.JG58.2.name=Sprout
+attack.JG58.2.text=Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward.
+//Paras
+card.JG59.name=Paras
+attack.JG59.1.name=Scratch
+attack.JG59.1.text=
+attack.JG59.2.name=Spore
+attack.JG59.2.text=The Defending Pokémon is now Asleep.
+//Pikachu
+card.JG60.name=Pikachu
+attack.JG60.1.name=Spark
+attack.JG60.1.text=If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it.
+//Rhyhorn
+card.JG61.name=Rhyhorn
+attack.JG61.1.name=Leer
+attack.JG61.1.text=Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn.
+attack.JG61.2.name=Horn Attack
+attack.JG61.2.text=
+//Spearow
+card.JG62.name=Spearow
+attack.JG62.1.name=Peck
+attack.JG62.1.text=
+attack.JG62.2.name=Mirror Move
+attack.JG62.2.text=If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon.
+//Venonat
+card.JG63.name=Venonat
+attack.JG63.1.name=Stun Spore
+attack.JG63.1.text=Flip a coin. If heads, the Defending Pokémon is now Paralyzed.
+attack.JG63.2.name=Leech Life
+attack.JG63.2.text=Heal Venonat equal to the damage done to the Defending Pokémon.
+
+//Jungle Set - Trainer Cards
+card.JG64.name=Poke Ball
+card.JG64.text=Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.
+
+//Jungle Set - Decks
+deck.waterblast.name=Water Blast
+deck.powerreserve.name=Power Reserve
